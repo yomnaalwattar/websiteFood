@@ -83,11 +83,12 @@ a .active{
     display: block;
 }    
 .about{
-    color :rgb(90, 41, 41);
+    color :black;
     border-style: inset;
     width:400px;
    clear:left;
     font-size: larger;
+   background-color:white;
 
 }
 .dark{
