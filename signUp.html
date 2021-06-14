@@ -28,7 +28,7 @@
            <input type="email" placeholder="email" name="email" required>
            <input type="tel" placeholder="phone number" id="num"name="num" pattern="[0]{1}[1]{1}[0-9]{9}" title="it should match 11 digits numbers
             " required>
-           <input type="password" placeholder="password" id="pw" name="pw" required pattern="(?=.*\d)(?!.*)(?=.*[A-Z])(?=.*[a-z]).{8}" title="8 characters starting with an uppercase letter and contain at least one number and one special character with no white spaces">
+           <input  id="pw" name="pw" type="password" placeholder="password" pattern="(?=.*\d)(?!.* )(?=.*[A-Z])(?=.*[a-z]).{8}" title="8 characters starting with an uppercase letter and contain at least one number and one special character with no white spaces"required>
            <div class="address">
           <textarea placeholder="address" name="address" cols="20" rows="10"></textarea>
            </div>
