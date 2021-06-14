@@ -1,5 +1,4 @@
-function checkPassword(form)
-  {
+function checkPassword(form){
       if(form.pw.value.length != 8) {
         alert("Error: password must contain 8 characters! Check the password title, please.");
         return false;
